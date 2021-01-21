@@ -12,10 +12,10 @@ bot = telebot.TeleBot(TOKEN)
 
 
 db = mysql.connector.connect(
-      host="127.0.0.1",
+      host="db",
       user="root",
       passwd="27122000",
-      port="3306",
+      port="8001",
       database = "weather"
     )
 

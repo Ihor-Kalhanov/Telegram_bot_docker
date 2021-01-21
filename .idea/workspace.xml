@@ -1,7 +1,107 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="64fb8190-31b9-43f5-af19-b46bd63bb623" name="Default Changelist" comment="" />
+    <list default="true" id="64fb8190-31b9-43f5-af19-b46bd63bb623" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.data/aria_log.00000001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.data/aria_log_control" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.data/ib_buffer_pool" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.data/ib_logfile0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.data/ibdata1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.data/multi-master.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.data/mysql/column_stats.MAD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.data/mysql/column_stats.MAI" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.data/mysql/column_stats.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.data/mysql/columns_priv.MAD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.data/mysql/columns_priv.MAI" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.data/mysql/columns_priv.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.data/mysql/db.MAD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.data/mysql/db.MAI" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.data/mysql/db.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.data/mysql/db.opt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.data/mysql/event.MAD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.data/mysql/event.MAI" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.data/mysql/event.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.data/mysql/func.MAD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.data/mysql/func.MAI" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.data/mysql/func.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.data/mysql/general_log.CSM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.data/mysql/general_log.CSV" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.data/mysql/general_log.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.data/mysql/global_priv.MAD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.data/mysql/global_priv.MAI" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.data/mysql/global_priv.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.data/mysql/gtid_slave_pos.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.data/mysql/gtid_slave_pos.ibd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.data/mysql/help_category.MAD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.data/mysql/help_category.MAI" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.data/mysql/help_category.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.data/mysql/help_keyword.MAD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.data/mysql/help_keyword.MAI" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.data/mysql/help_keyword.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.data/mysql/help_relation.MAD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.data/mysql/help_relation.MAI" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.data/mysql/help_relation.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.data/mysql/help_topic.MAD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.data/mysql/help_topic.MAI" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.data/mysql/help_topic.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.data/mysql/index_stats.MAD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.data/mysql/index_stats.MAI" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.data/mysql/index_stats.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.data/mysql/innodb_index_stats.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.data/mysql/innodb_index_stats.ibd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.data/mysql/innodb_table_stats.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.data/mysql/innodb_table_stats.ibd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.data/mysql/plugin.MAD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.data/mysql/plugin.MAI" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.data/mysql/plugin.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.data/mysql/proc.MAD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.data/mysql/proc.MAI" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.data/mysql/proc.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.data/mysql/procs_priv.MAD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.data/mysql/procs_priv.MAI" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.data/mysql/procs_priv.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.data/mysql/proxies_priv.MAD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.data/mysql/proxies_priv.MAI" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.data/mysql/proxies_priv.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.data/mysql/roles_mapping.MAD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.data/mysql/roles_mapping.MAI" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.data/mysql/roles_mapping.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.data/mysql/servers.MAD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.data/mysql/servers.MAI" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.data/mysql/servers.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.data/mysql/slow_log.CSM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.data/mysql/slow_log.CSV" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.data/mysql/slow_log.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.data/mysql/table_stats.MAD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.data/mysql/table_stats.MAI" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.data/mysql/table_stats.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.data/mysql/tables_priv.MAD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.data/mysql/tables_priv.MAI" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.data/mysql/tables_priv.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.data/mysql/time_zone.MAD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.data/mysql/time_zone.MAI" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.data/mysql/time_zone.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.data/mysql/time_zone_leap_second.MAD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.data/mysql/time_zone_leap_second.MAI" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.data/mysql/time_zone_leap_second.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.data/mysql/time_zone_name.MAD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.data/mysql/time_zone_name.MAI" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.data/mysql/time_zone_name.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.data/mysql/time_zone_transition.MAD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.data/mysql/time_zone_transition.MAI" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.data/mysql/time_zone_transition.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.data/mysql/time_zone_transition_type.MAD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.data/mysql/time_zone_transition_type.MAI" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.data/mysql/time_zone_transition_type.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.data/mysql/transaction_registry.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.data/mysql/transaction_registry.ibd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.data/mysql/user.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.data/performance_schema/db.opt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bot/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/bot/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +114,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1mcyKNeYsqESI4iVyVSTo5pDKdF" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -22,14 +126,16 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\Parser\telegram_bot\bot" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Docker.docker-compose.yml.app: Compose Deployment">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="telegram_bot" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -52,8 +158,31 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="docker-compose.yml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yml.app: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="app" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Docker.docker-compose.yml.app: Compose Deployment" />
+        <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
         <item itemvalue="Python.main" />
       </list>
     </recent_temporary>
@@ -80,7 +209,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1609807108482</updated>
-      <workItem from="1609807121319" duration="247000" />
+      <workItem from="1609807121319" duration="992000" />
+      <workItem from="1610143594371" duration="40000" />
+      <workItem from="1611261626064" duration="4768000" />
     </task>
     <servers />
   </component>
@@ -88,28 +219,44 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="736" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1609807287126">
+    <state x="736" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1609808020492">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="736" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/-1440.172.1440.860@0.0.1920.1040" timestamp="1609807287126" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1609807351123">
+    <state x="736" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/-1440.172.1440.860@0.0.1920.1040" timestamp="1609808020492" />
+    <state x="679" y="241" key="#docker-compose.yml.app:_Compose_Deployment" timestamp="1611263211972">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1440.172.1440.860@0.0.1920.1040" timestamp="1609807351123" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1609807351123">
+    <state x="679" y="241" key="#docker-compose.yml.app:_Compose_Deployment/0.0.1920.1040/-1440.172.1440.860@0.0.1920.1040" timestamp="1611263211972" />
+    <state x="679" y="241" key="#docker-compose.yml:_Compose_Deployment" timestamp="1611263209588">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1440.172.1440.860@0.0.1920.1040" timestamp="1609807351123" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1609807351123">
+    <state x="679" y="241" key="#docker-compose.yml:_Compose_Deployment/0.0.1920.1040/-1440.172.1440.860@0.0.1920.1040" timestamp="1611263209588" />
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1610143632746">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1440.172.1440.860@0.0.1920.1040" timestamp="1609807351123" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1609807351123">
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040/-1440.172.1440.860@0.0.1920.1040" timestamp="1610143632746" />
+    <state width="1877" height="295" key="GridCell.Tab.0.bottom" timestamp="1611261935939">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1440.172.1440.860@0.0.1920.1040" timestamp="1609807351123" />
+    <state width="1877" height="295" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1440.172.1440.860@0.0.1920.1040" timestamp="1611261935939" />
+    <state width="1877" height="295" key="GridCell.Tab.0.center" timestamp="1611261935939">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="295" key="GridCell.Tab.0.center/0.0.1920.1040/-1440.172.1440.860@0.0.1920.1040" timestamp="1611261935939" />
+    <state width="1877" height="295" key="GridCell.Tab.0.left" timestamp="1611261935938">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="295" key="GridCell.Tab.0.left/0.0.1920.1040/-1440.172.1440.860@0.0.1920.1040" timestamp="1611261935938" />
+    <state width="1877" height="295" key="GridCell.Tab.0.right" timestamp="1611261935939">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="295" key="GridCell.Tab.0.right/0.0.1920.1040/-1440.172.1440.860@0.0.1920.1040" timestamp="1611261935939" />
+    <state x="-1024" y="425" key="com.intellij.ide.util.TipDialog" timestamp="1610143603831">
+      <screen x="-1440" y="172" width="1440" height="860" />
+    </state>
+    <state x="-1024" y="425" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1440.172.1440.860@-1440.172.1440.860" timestamp="1610143603831" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/telegram_bot$main.coverage" NAME="main Coverage Results" MODIFIED="1609807279076" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bot" />
+    <SUITE FILE_PATH="coverage/telegram_bot$main.coverage" NAME="main Coverage Results" MODIFIED="1611261648515" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bot" />
   </component>
 </project>

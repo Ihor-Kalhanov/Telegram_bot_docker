@@ -9,6 +9,7 @@ services:
     image: mariadb
     restart: always
     environment:
+      MYSQL_DATABASE: 'weather'
       MYSQL_ROOT_PASSWORD: 27122000
     ports:
       - 8001:5432
@@ -19,6 +20,3 @@ services:
     restart: always
     ports:
       - 8080:8080
-
-
-
