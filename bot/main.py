@@ -1,4 +1,3 @@
-
 import  telebot
 import  requests
 import mysql.connector
@@ -13,14 +12,27 @@ bot = telebot.TeleBot(TOKEN)
 
 db = mysql.connector.connect(
       host="db",
-      user="root",
-      passwd="27122000",
-      port="8001",
+      user="dev",
+      passwd="dev",
       database = "weather"
     )
 
+
+
 cursor = db.cursor()
+
 user_data = {}
+
+#create_test_table = """
+#CREATE TABLE IF NOT EXISTS 'weather' (
+#  id INT AUTO_INCREMENT,
+#  first_name TEXT NOT NULL,
+#  last_name TEXT NOT NULL,
+#  description TEXT NOT NULL,
+#  PRIMARY KEY (id)
+#) ENGINE = InnoDB
+#"""
+#cursor.execute(create_test_table)
 
 print('Start Bot')
 
