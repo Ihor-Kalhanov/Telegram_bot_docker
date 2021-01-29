@@ -2,8 +2,6 @@ import  telebot
 import  requests
 import mysql.connector
 
-
-
 url = 'http://api.openweathermap.org/data/2.5/weather'
 api_weather = 'c4cbd5a2c52a90888cf3be7c25c65b79'
 TOKEN = '1315160443:AAFmUQK7D2Oo9oU05PzIroxEE-E7iIAhOcY'
@@ -11,11 +9,11 @@ bot = telebot.TeleBot(TOKEN)
 
 
 db = mysql.connector.connect(
-      host="db",
-      user="dev",
-      passwd="dev",
-      database = "weather"
-    )
+    host="db",
+    user="dev",
+    passwd="dev",
+    database = "weather"
+)
 
 
 
