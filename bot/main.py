@@ -19,20 +19,22 @@ db = mysql.connector.connect(
 
 cursor = db.cursor()
 
+#cursor.execute("CREATE DATABASE weather")
+#cursor.execute("CREATE TABLE users (first_name VARCHAR(255), last_name VARCHAR(255))")
+#cursor.execute("ALTER TABLE users ADD COLUMN (id INT AUTO_INCREMENT PRIMARY KEY, user_id INT UNIQUE)")
+
+
+
+
 user_data = {}
 
-#create_test_table = """
-#CREATE TABLE IF NOT EXISTS 'weather' (
-#  id INT AUTO_INCREMENT,
-#  first_name TEXT NOT NULL,
-#  last_name TEXT NOT NULL,
-#  description TEXT NOT NULL,
-#  PRIMARY KEY (id)
-#) ENGINE = InnoDB
-#"""
-#cursor.execute(create_test_table)
 
-print('Start Bot')
+@bot.message_handler(commands=['admin'])
+def start(message):
+    cursor.execute("SELECT * FROM users")
+    rows = cursor.fetchall()
+    for row in rows:
+        bot.send_message(message.chat.id, row )
 
 
 class User:
@@ -45,13 +47,17 @@ def welcome(message):
     bot.send_message(message.chat.id, "Hello {name}. It's bot for weather)".format(name = message.from_user.username + "\n" +
         "Run the comm /weather and enter the city" ))
 
+@bot.message_handler(commands=['admin'])
+def start(message):
+    cursor.execute("SELECT * FROM users")
+    rows = cursor.fetchall()
+    for row in rows:
+        bot.send_message(message.chat.id, row )
 
 @bot.message_handler(commands= ['register'])
 def register(message):
     msg = bot.send_message(message.chat.id, "Enter you first name")
     bot.register_next_step_handler(msg, process_firstname_step)
-
-
 
 def process_firstname_step(message):
     try:
@@ -143,25 +149,11 @@ def all_text(message):
     bot.send_message(message.chat.id, "/weather")
 
 
-    #user_id = message.from_user.id
-    #user_data[user_id] = User(message.text)
-    #cursor.execute("SELECT first_name FROM users WHERE user_id = {0}".format(user_id))
-    #first = cursor.fetchone()
-    #cursor.execute("SELECT last_name FROM users WHERE user_id = {0}".format(user_id))
-    #last = cursor.fetchone()
-
-    #bot.send_message(message.chat.id, user_id)
-    #bot.send_message(message.chat.id, first)
-    #bot.send_message(message.chat.id, last)
-
-
 
 bot.enable_save_next_step_handlers(delay=2)
 
 
 bot.load_next_step_handlers()
-
-
 
 
 
