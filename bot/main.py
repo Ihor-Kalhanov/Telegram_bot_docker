@@ -12,14 +12,14 @@ db = mysql.connector.connect(
     host="db",
     user="dev",
     passwd="dev",
-    database = "weather"
+    #database = "weather"
 )
 
 
 
 cursor = db.cursor()
 
-#cursor.execute("CREATE DATABASE weather")
+cursor.execute("CREATE DATABASE weather")
 #cursor.execute("CREATE TABLE users (first_name VARCHAR(255), last_name VARCHAR(255))")
 #cursor.execute("ALTER TABLE users ADD COLUMN (id INT AUTO_INCREMENT PRIMARY KEY, user_id INT UNIQUE)")
 
